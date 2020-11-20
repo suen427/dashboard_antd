@@ -23,6 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public --no-dll",
@@ -70,6 +71,7 @@
     "@storybook/preset-create-react-app": "^3.1.5",
     "@storybook/react": "^6.0.28",
     "react-is": "^17.0.1",
-    "react-test-renderer": "^17.0.1"
+    "react-test-renderer": "^17.0.1",
+    "source-map-explorer": "^2.5.0"
   }
 }
